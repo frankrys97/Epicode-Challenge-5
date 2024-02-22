@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  display: flex;
+  margin: 0;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main {
+  width: 100%;
+}
+
+.topbar {
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.content {
+  height: 90%;
+  margin-top: 4vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icon {
+  height: 8vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2em;
+  cursor: pointer;
+}
+
+.icon ion-icon {
+  font-size: 2em;
+}
+
+.icon p {
+  margin: 0;
+}
+
+.icon:not(:first-of-type) {
+  height: 16vh;
+}
+
+.logo {
+  height: 50%;
+  cursor: pointer;
+}
+
+.search-wrapper {
+  display: flex;
+  height: 50%;
+  width: 30%;
+}
+
+.search-wrapper input {
+  width: 100%;
+  padding: 0 1em;
+}
+
+.icons-wrapper {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.top-icon {
+  font-size: 2em;
+  padding: 0 0.5em;
+}
+
+.mic-icon {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.search-btn {
+  padding: 0 0.7em;
+  font-size: 1.3em;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.description {
+display: flex;
+flex-direction: column;
+font-size: 0.7em;
+}
+
+.bottom-thumb {
+display: flex;
+justify-content: flex-start;
+margin: 0.7em 0;
+align-items: center;
+}
+
+.description h2, p {
+margin: 0;
+margin-left: 10px;
+}
+
+.description p {
+color: grey;
+}
+
+
+.thumb img {
+height: 220px;
+width: auto;
+}
+
+.bottom-thumb img {
+height: 5vh;
+}
+
+.thumb {
+cursor: pointer;
+}
+
